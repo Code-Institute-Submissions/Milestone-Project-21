@@ -1,16 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:100,200,300,400,500,600,700|Righteous=100,200,300,400,500,600,700');
 
+
 /*--------------------------------------------Colors*/
 
 .bg-color-title-slogan {
-    background-color: #0066ff;
+    background-color: #0066cc;
 }
 
 .ui-menu-color {
-    background-color: #0066ff;
+    background-color: #0066cc;
+}
+
+
+.bg-color-special-offer {
+    background-color: #cccccc;
+}
+
+/*--------------------------------------------Extra*/
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: 'Righteous', sans-serif;
+    font-weight: 300;
+    color: #fafafa
 }
 
 /*--------------------------------------------Heading*/
+
 header {
     margin: 0;
 }
@@ -23,6 +46,13 @@ header {
     font-weight: 300;
     font-size: 50px;
     text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.title:hover {
+color: #fafafa;
+text-decoration-line: underline;
 }
 
 .slogan {
@@ -30,6 +60,13 @@ header {
     font-weight: 300;
     font-size: 25px;
     text-align: center;
+    text-decoration: none;
+
+}
+
+.slogan:hover {
+color: #fafafa;
+text-decoration: underline;
 }
 
 .list-inline-item:not(:last-child) {
@@ -42,5 +79,87 @@ header {
 
 #nav li {
     font-size: 14px;
-    padding: 40px;
+    padding: 10px;
+}
+
+#nav li:hover {
+    background-color: #000099;
+}
+
+.menuitem {
+    height: 100px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    color: #fff;
+    height: 150px;
+}
+
+.menuitem a i {
+    padding-top: 20px;
+    display: block;
+    color: #fff;
+    font-size: 25px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 22px;
+    font-family: 'Ibarra Real Nova';
+}
+
+/*--------------------------------------------Section*/
+
+img {
+  padding-top: 20px;  
+  padding-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+/*--------------------------------------------Footer*/
+
+footer {
+    background-color: hsl(210, 100%, 40%);
+    color: #fafafa;
+    min-height: 40px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 10px; 
+}
+
+.social-links li a i {
+    width: 34px;
+    height: 34px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #0099ff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #000099;
+}
+
+#footor-details {
+    padding: 20px;
+    text-align: center;
 }
