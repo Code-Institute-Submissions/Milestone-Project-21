@@ -22,9 +22,13 @@ h1,h2,h3,h4 {
 }
 
 .general-sub {
-    font-family: 'Righteous', sans-serif;
-    font-weight: 300;
-    color: #fafafa
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 26px;
+    text-decoration: underline;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    color: #fafafa;
 }
 
 /*--------------------------------------------Heading*/
@@ -53,7 +57,7 @@ text-decoration-line: underline;
 .slogan {
     font-family: 'Ibarra Real Nova';
     font-weight: 300;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
 
@@ -61,7 +65,7 @@ text-decoration-line: underline;
 
 .slogan:hover {
 color: #fafafa;
-text-decoration: underline;
+text-decoration: none;
 }
 
 .list-inline-item:not(:last-child) {
@@ -112,19 +116,15 @@ text-decoration: underline;
 
 /*--------------------------------------------Index Section*/
 
-img {
-    margin: 60px;
-    position: center;
-    width: 400px;
-    height: 250px;
-
+.logo-image {
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
 }
 
 .section-heading {
     font-weight: 400;
-    padding-top: 30px;
-    padding-left: 100px;
-    text-align: center;
+    text-align: left;
 }
 
 .join-heading {
@@ -142,7 +142,7 @@ img {
 
 button[type="submit"] {
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     color: #fafafa;
     background-color: #0066cc;
 }
@@ -172,13 +172,18 @@ button[type="submit"] {
 }
 
 .benefits-heading {
-    text-align: center;
-    margin: 15px;
+    margin: 20px;
     font-family: 'Merriweather';
     font-weight: bold;
     font-size: 34px;
+    text-align: center;
     padding-bottom: 30px;
     color: #0066cc;
+}
+
+.benefits-list {
+    border-right: 5px solid;
+    border-color: #0066cc;
 }
 
 .benefits-item {
@@ -196,12 +201,24 @@ button[type="submit"] {
     color: #595959;   
 }
 
+.why-join-image {
+    width: auto;
+    max-width: 100% ;
+    height: auto;
+    padding-top: 20px;
+}
+
+/*--------------------------------------------Activities Section*/
+
+
+
 /*--------------------------------------------Footer*/
 
 footer {
     background-color: hsl(210, 100%, 40%);
     color: #fafafa;
-    min-height: 40px;
+    padding: 15px;
+    min-width: 40px;
     margin: 0;
 }
 
@@ -213,12 +230,13 @@ footer {
     width: 34px;
     height: 34px;
     padding: 12px 0;
+    margin-left: 40px;
     border-radius: 50%;
-    font-size: 22px;
+    font-size: 40px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #0099ff;
+    background: #0066cc;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -230,6 +248,5 @@ footer {
 }
 
 #footor-details {
-    padding: 20px;
     text-align: center;
 }
