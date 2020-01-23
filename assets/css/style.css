@@ -210,7 +210,83 @@ button[type="submit"] {
 
 /*--------------------------------------------Activities Section*/
 
+.heading-activities {
+    margin: 20px;
+    margin-bottom: 30px;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+    color: #0066cc;
+}
 
+.heading-activity {
+    font-family: 'Merriweather';
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: underline;
+    color: #595959;
+}
+
+.football-image {
+    width: auto;
+    max-width: 100% ;
+    height: auto;
+    margin: 10px;
+}
+
+.activity-p {
+    font-family: 'Merriweather';
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    color: #595959;
+    padding-bottom: 10px;
+    border-top: 3px solid;
+}
+
+.volleyball-image {
+    height: 240px;
+    width: 600px;
+    max-width: 100%;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+@media(max-width: 992px) {
+    .volleyball-image {
+        width: 700px;
+    }
+}
+
+@media(max-width: 576px) {
+   .volleyball-image {
+       height: auto;
+       padding-right: 20px;   
+    }
+}
+
+.dance-fitness-image {
+    width: 625px;
+    max-width: 100% ;
+    height: 300px;
+    margin: 10px;
+}
+
+.boxing-image {
+    width: 625px;
+    max-width: 100% ;
+    height: 300px;
+    margin: 10px;
+}
+
+.pt-sessions-image {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
 
 /*--------------------------------------------Footer*/
 
