@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:100,200,300,400,500,600,700|Merriweather=100,200,300,400,500,600,700');
 
 
+
+
 /*--------------------------------------------Colors*/
 
 .bg-color-title-slogan {
@@ -22,12 +24,11 @@ h1,h2,h3,h4 {
 }
 
 .general-sub {
-    font-family: 'Righteous';
+    font-family: 'Ibarra Real Nova';
     font-weight: 400;
     font-size: 26px;
-    text-decoration: underline;
-    padding-left: 50px;
-    padding-bottom: 10px;
+    text-align: center;
+    padding: 10px;
     color: #fafafa;
 }
 
@@ -47,6 +48,13 @@ header {
     text-align: center;
     padding-top: 10px;
     text-decoration: none;
+}
+
+@media(max-width: 768px) {
+    .title {
+        font-size: 37px;
+        margin-top: 10px;
+    }
 }
 
 .title:hover {
@@ -138,7 +146,8 @@ text-decoration: none;
     font-family: 'Merriweather';
     font-weight: bold;
     font-size: 22px;
-    color: #0066cc;
+    color: #595959;
+    padding-bottom: 10px;
 }
 
 
@@ -401,7 +410,7 @@ button[type="submit"] {
 footer {
     background-color: hsl(210, 100%, 40%);
     color: #fafafa;
-    padding: 15px;
+    margin: 15px;
     min-width: 40px;
     margin: 0;
 }
@@ -414,7 +423,6 @@ footer {
     width: 34px;
     height: 34px;
     padding: 12px 0;
-    margin-left: 40px;
     border-radius: 50%;
     font-size: 40px;
     line-height: 7px;
