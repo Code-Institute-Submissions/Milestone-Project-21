@@ -12,6 +12,9 @@ As a new customer, I want to see what the gym provides to me, so that I can part
 As a potential customer, I want to be able to sign up easily, so I can join the gym.
 As a user, I want to be able to ask any questions I have, so I can improve my understanding of Fun Fitness.
 
+The wireframes that were created in the design phase, have been included in the project under the directory 'Wireframes'.
+Inside this folder I have included wireframes for a desktop, tablet and mobile phone screen.
+
 #####Strategy
 My aim for the design was to create a website that was easy to navigate around and access information.
 I also wanted an vibrant design to match the name of project.
