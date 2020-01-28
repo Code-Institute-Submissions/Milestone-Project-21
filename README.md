@@ -1,66 +1,116 @@
-Fun Fitness Gym
+#Fun Fitness Gym
 
 The purpose of my project is go provide an website for a gym that is providing the public with a different way of exercising other then lifting weights and running on dreadmills.
 The website purpose is to both provide people with both a online way of signing up and showing people the different ways that we train which are both fun and have more benefits then your average local gym. 
 
+###UX
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+####User Stories
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+As a new user, I want the navigation bar to be organised well, so that I can navigate through the website with ease.
+As a new customer, I want to see what the gym provides to me, so that I can partipate.
+As a potential customer, I want to be able to sign up easily, so I can join the gym.
+As a user, I want to be able to ask any questions I have, so I can improve my understanding of Fun Fitness.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+#####Strategy
+My aim for the design was to create a website that was easy to navigate around and access information.
+I also wanted an vibrant design to match the name of project.
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+#####Scope
+I designed this website to show potential customers how our gym is different to others and the types of activites that we do. 
+I also wanted a online way for customers to sign up so that we can get them ready to join quicker and how to contact us.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+#####Structure
+The way I have structured my project is to have the sign up form on the home page so that customer can find it with ease and be able to join.
+In the 'Why Join' page, I have listed a summary of joining the gym at the top of the page and then listed the different benefits side by side that we provide.
+The next page is solely based on diffrent activites that the gym provides, the page is set up with a image of the activity with a brief description of why to join and what days the activites are done.
+The last page is the 'Contact Us' page, this is set up with the contact, timings and address details at the top of the page side by side and below is a questions form.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+#####Skeleton
+I have included the wireframes in my project on different devices such as desktop, tablet and mobile.
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+#####Surface
+I have used a light blue color for the background of my header and footer and used white color for the text to create a fun and vibrant style, also I have chose to stick with a white background in the section background as it is the best color to match the header and footer.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+###Features
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+####Existing Features
+Navbar - This will allow the user to see what different web pages that they can visit on the website and click on the different links in the navbar which will take them to the web page.
+Sign Up Form - This form will allow the user to fill out their details so they can join the gym.
+Join Button- This button will complete the sign up form.
+Logo Image - This image is the gym logo branding and show users how they can identify the gym.
+Footer Social Links - This will let the user access the different social media platform they can visit our pages on.
+Why Join Information - This information will answer the users first question, why should they join Fun Fitness?
+Benefits - This show the user the advantages of the gym and what they will get for their money. 
+Activities - This will provide the user with an understanding of what types of activities are done at the gym that makes it so unique.
+Activities Images - The images will show the different types of activities.
+Contact Info - This will show the user the information needed to contact the gym, the opening times and where it is located.
+Questions Form - This will allow the user to ask any issues or information they need help with.
+Questions Submit Button - This button will allow the user complete the questions form.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+####Features Left to Implement
+Hamburger Icon - I would like to implement the Hamburger Icon to open and close my navbar on smaller screens like mobile phones and tablet in the future. 
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+###Technologies Used
+HTML - This was one of the langauges used to build the website and input the text.
+CSS - This was the second language used to style the pages of the website 
+Bootstrap - (https://getbootstrap.com/) - This was used to help structure the pages in my website.
+Font Awesome - (https://fontawesome.com/) - This libary was used to include icons in my project.
+Hover CSS - (https://ianlunn.github.io/Hover/) - This libary was used to hover when over the links in the navbar and footer.
+Google Fonts - (https://fonts.google.com/) - This was tool was used to use different fonts on my webpages.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+###Testing
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+####CSS 
+(https://jigsaw.w3.org/css-validator/) - I used this website to test my css file, there were no errors on the file.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+####HTML
+(https://validator.w3.org/nu/) - I used this website to test my html files. There were errors in the files, such as there was a missing closing div in the footer which was the main error on the files as there were missing closing divs in sections for the index and why join file.
+Another error was that the benefits list on the why join file was written as a unordered list, but there were information for each list item so it needs to be listed as a description list which has been rectified.
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+#####1. Easy Use of Navigation Bar 
+The navbar is very simply with four links, which will take you to the page your require such as if you want to go to the why join page all you need to do is click on the why join link in the navbar and if you would like to visit the home page you can just click on the home link in the nav bar or the title of the website and it will take you back to that main page.
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+#####2. I want to see what the gym provides to me 
+A new customer's user story will be achieved by going to the why join page and reading the benefits they'll recieve and they can go on the activities page to see what activity's interest them.
+
+#####3. Easy Sign Up
+A potential customer user story will be achieved as the sign up form is on the home page so the user is able to find it and join with ease.
+If you try to submit the form without filling in all fields which are 'First Name', 'Surname' and 'Email Address' then a pop up will appear to state that all fields need to be complete, this was done by adding 'Required' attribute.
+If all fields have been filled then the webpage will reload.  
+
+#####4. I want to be able to ask any questions I have
+A user's story will be achieved by going to the 'Contact Us' page and then going towards the bottom of the page and the user can ask any question.
+If the user attempts to submit the form without completing all fields then the form won't submit, the 'Required' attribute has been added to all the fields 'Full Name, 'Email Address' and the 'Question' to make this happened.
+If all fields are filled then the webpage will reload. 
+
+This website was tested on different devices such as the Iphone 6/7/8 and the Ipad to make sure that it was responsive and compatible.
+During the testing phase for this I need to fix the navbar as it wasnt't fitting on page on the devices and the links were overlapping each other.
+This was corrected so the navbar is in a square when in this size with two links at the top and two below.
+
+###Deployment
+This site hosted by GitHub Pages, it is directly deployed via the master branch and it will be regularly updated every time a commit is done.
+
+To run locally, you can clone this respository directly in the terminal of the environment you are using for code editing type: git clone https://github.com/WHusssain937/Milestone-Project.git.
+To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+###Credits
+
+######Content
+All content in this project was written by myself. 
+
+###Media
+logo.png - (http://4.bp.blogspot.com/-d2TWCCv1jbY/Vh_aqa9QPUI/AAAAAAAAEPU/NyazbIBCYMs/s1600/logo.jpg) 
+fitness-1.png - (https://www.shbarcelona.comc/blog/en/wp-content/uploads/2014/07/Gym3-810x540.jpg)
+boxing-image.jpg - (https://images.app.goo.gl/kKPv1SyvjSoRXjdd8)
+dance-fitness-image.jpg - (https://www.google.com/imgres?imgurl=https://d2xhaclmiois39.cloudfront.net/images/Dance_(Ethnic).jpg&imgrefurl=https://www.booyafitness.com/&docid=Z5o1vTHn_bufeM&tbnid=u_kCr6p8hHKWWM:&vet=1&w=800&h=533&source=sh/x/im)
+football-image.jpg - (https://ihmanchester.com/wp-content/uploads/2018/02/balllegs-sdr.jpg)
+pt-sessions-image.jpg - (https://images.app.goo.gl/ua4bChgdN35LiE196)
+volleyball-image.jpg - (https://www.thesubath.com/asset/Organisation/6482/IMG_4201.JPG)
+
+###Acknowledgements
+I used the module course to help with create my navbar and footer.
+This link was used to help write the dance class sections on the activites page - (https://www.thisgirlcan.co.uk/activities/dance-fitness/)
+
+#######This is for educational use.
