@@ -155,7 +155,7 @@ text-decoration: none;
 }
 
 button[type="submit"] {
-    margin-top: 15px;
+    margin-top: 35px;
     margin-bottom: 60px;
     color: #fafafa;
     background-color: #0066cc;
@@ -250,13 +250,6 @@ button[type="submit"] {
     color: #595959;
 }
 
-.football-image {
-    height: auto;
-    width: auto;
-    max-width: 100% ;
-    margin: 10px;
-}
-
 .activity-p {
     font-family: 'Merriweather';
     font-weight: 500;
@@ -270,6 +263,13 @@ button[type="submit"] {
     border-bottom: 5px solid;
     border-bottom-color: #595959;
     margin-bottom: 10px;
+}
+
+.football-image {
+    height: auto;
+    width: auto;
+    max-width: 100% ;
+    margin: 10px;
 }
 
 .volleyball-image {

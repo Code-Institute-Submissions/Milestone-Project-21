@@ -145,4 +145,4 @@ All content in this project was written by myself.
 I used the module course to help to create my navbar and footer.<br/>
 This link was used to help write the dance class sections on the activites page (https://www.thisgirlcan.co.uk/activities/dance-fitness/)
 
-####### This is for educational use.
+### This is for educational use
