@@ -67,7 +67,7 @@ This button will allow the user complete the questions form.
 
 #### Features Left to Implement
 
-#####Hamburger Icon 
+##### Hamburger Icon 
 I would like to implement the Hamburger Icon to open and close my navbar on smaller screens like mobile phones and tablet in the future projects. 
 
 ### Technologies Used
@@ -145,4 +145,4 @@ All content in this project was written by myself.
 I used the module course to help to create my navbar and footer.<br/>
 This link was used to help write the dance class sections on the activites page (https://www.thisgirlcan.co.uk/activities/dance-fitness/)
 
-### This is for educational use
+#### This is for educational use

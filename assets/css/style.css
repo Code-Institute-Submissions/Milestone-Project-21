@@ -73,6 +73,8 @@ color: #fafafa;
 text-decoration: none;
 }
 
+/*--------------------------------------------Navbar*/
+
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
@@ -121,14 +123,8 @@ text-decoration: none;
 
 /*--------------------------------------------Index Section*/
 
-.logo-image {
-    width: auto ;
-    max-width: 100% ;
-    height: auto ;
-}
-
 .section-heading {
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .join-heading {
@@ -144,12 +140,10 @@ text-decoration: none;
     font-weight: bold;
     font-size: 22px;
     color: #595959;
-    padding-bottom: 10px;
 }
 
-
 .center-form {
-    padding-top: 10px;
+    padding-top: 20px;
     margin: 0 auto;
     max-width: 70%;
 }
@@ -161,7 +155,15 @@ button[type="submit"] {
     background-color: #0066cc;
 }
 
+/*--------------------------------------------Index Image*/
 
+.logo-image {
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+    margin-top: 60px;
+    margin-bottom: 60px
+}
 /*--------------------------------------------Why Join Section*/
 
 .sub-heading {
@@ -184,6 +186,27 @@ button[type="submit"] {
     padding-bottom: 30px;
 }
 
+/*--------------------------------------------Why Join Image*/
+.why-join-image {
+    width: auto;
+    max-width: 100% ;
+    height: auto;
+    padding-top: 10px;
+}
+
+@media(max-width: 992px) {
+    .why-join-image {
+        padding-top: 130px;
+    }
+}
+
+@media(max-width: 576px) {
+    .why-join-image {
+        padding-top: 0;
+    }
+}
+
+/*--------------------------------------------Benefits Section*/
 .benefits-heading {
     margin: 20px;
     font-family: 'Merriweather';
@@ -208,25 +231,6 @@ button[type="submit"] {
     text-align: center;
     margin: 15px;
     color: #595959;   
-}
-
-.why-join-image {
-    width: auto;
-    max-width: 100% ;
-    height: auto;
-    margin-top: 20px;
-}
-
-@media(max-width: 992px) {
-    .why-join-image {
-        padding-top: 130px;
-    }
-}
-
-@media(max-width: 576px) {
-    .why-join-image {
-        padding-top: 0;
-    }
 }
 
 /*--------------------------------------------Activities Section*/
@@ -264,7 +268,7 @@ button[type="submit"] {
     border-bottom-color: #595959;
     margin-bottom: 10px;
 }
-
+/*--------------------------------------------Football Image*/
 .football-image {
     height: auto;
     width: auto;
@@ -272,12 +276,13 @@ button[type="submit"] {
     margin: 10px;
 }
 
+/*--------------------------------------------Volleyball Image*/
+
 .volleyball-image {
-    height: 240px;
-    width: 600px;
+    height: auto;
+    width: auto;
     max-width: 100%;
-    margin: 5px;
-    margin-left: 20px;
+    margin: 10px;
 }
 
 @media(max-width: 992px) {
@@ -293,10 +298,12 @@ button[type="submit"] {
     }
 }
 
+/*--------------------------------------------Dance Image*/
+
 .dance-fitness-image {
-    width: 625px;
+    height: auto;
+    width: auto;
     max-width: 100% ;
-    height: 300px;
     margin: 5px;
 }
 
@@ -313,10 +320,12 @@ button[type="submit"] {
     }
 }
 
+/*--------------------------------------------Boxing Image*/
+
 .boxing-image {
-    width: 625px;
-    max-width: 100% ;
-    height: 300px;
+    height: auto;
+    width: auto;
+    max-width: 100%;
     margin: 5px;
 }
 
@@ -333,10 +342,12 @@ button[type="submit"] {
     }
 }
 
+/*--------------------------------------------PT sessions Image*/
+
 .pt-sessions-image {
+    height: auto;
     width: auto;
     max-width: 100%;
-    height: auto;
     margin: 5px;
 }
 
@@ -384,6 +395,8 @@ button[type="submit"] {
     margin-bottom: 40px;
 }
 
+/*--------------------------------------------Questions Form*/
+
 .questions-heading {
     font-family: 'Merriweather';
     font-weight: bold;
@@ -413,7 +426,15 @@ footer {
 }
 
 .social-links {
+    margin-left: 35px;
     padding-bottom: 10px; 
+}
+
+@media(max-width: 576px) {
+    .social-links{
+        padding: 10px;
+        margin: 10px;    
+    }
 }
 
 .social-links li a i {
