@@ -111,10 +111,12 @@ A user's story will be achieved by going to the 'Contact Us' page and then going
 If the user attempts to submit the form without completing all fields then the form won't submit, the 'Required' attribute has been added to all the fields 'Full Name, 'Email Address' and the 'Question' to make this happened.
 If all fields are filled then the webpage will reload. 
 
+##### Websites & Devices Testing 
+This website was tested on different devices such as the Iphone 6/7/8, Ipad Pro and Ipad and on multiple websites such as Google Chrome, Internet Exployer and Firefox to make sure that it was responsive and compatible.
+During the testing phase for this I need to fix the navbar as it wasnt't fitting on page on the devices and the links were overlapping each other, this was corrected so the navbar is in a square when in this size with two links at the top and two below. 
+Another issue I found was the footer would not stay at the bottom on desktop screens larger then laptops and the Ipad Pro, but I have rectified this know by using the bootstrap grid to rearrange when on these screens.
+I also found that the 'Contact Us' link in the navbar wasn't sitting properly when it was on a mobile screen such as the Samsung S5 or the Google Pixel, this has been sorted by placing the navbar vertical when on mobile screens.
 
-This website was tested on different devices such as the Iphone 6/7/8 and the Ipad to make sure that it was responsive and compatible.
-During the testing phase for this I need to fix the navbar as it wasnt't fitting on page on the devices and the links were overlapping each other.
-This was corrected so the navbar is in a square when in this size with two links at the top and two below.
 
 ### Deployment
 This site is hosted by GitHub Pages, it is directly deployed via the master branch and it will be regularly updated every time a commit is done.

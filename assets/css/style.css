@@ -29,6 +29,7 @@ h1,h2,h3,h4 {
     color: #fafafa;
 }
 
+
 /*--------------------------------------------Heading*/
 
 header {
@@ -285,9 +286,10 @@ button[type="submit"] {
     margin: 10px;
 }
 
-@media(max-width: 992px) {
+@media(max-width: 1200px) {
     .volleyball-image {
-        width: 700px;
+        height: auto;
+        width: auto;
     }
 }
 
@@ -307,9 +309,9 @@ button[type="submit"] {
     margin: 5px;
 }
 
-@media(max-width: 992px) {
+@media(max-width: 1200px) {
     .dance-fitness-image {
-        width: 700px;
+        width: 1000px;
     }
 }
 
@@ -351,9 +353,9 @@ button[type="submit"] {
     margin: 5px;
 }
 
-@media(max-width: 992px) {
+@media(max-width: 1200px) {
     .pt-sessions-image{
-        width: 700px;
+        width: 1000px;
     }
 }
 
@@ -418,11 +420,11 @@ button[type="submit"] {
 /*--------------------------------------------Footer*/
 
 footer {
-    background-color: hsl(210, 100%, 40%);
-    color: #fafafa;
     margin: 15px;
     min-width: 40px;
     margin: 0;
+    background-color: hsl(210, 100%, 40%);
+    color: #fafafa;
 }
 
 .social-links {
