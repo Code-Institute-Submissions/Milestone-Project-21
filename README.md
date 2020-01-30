@@ -88,11 +88,11 @@ This tool was used to include different fonts on my webpages.
 
 ### Testing
 
-#### CSS 
-(https://jigsaw.w3.org/css-validator/) - I used this website to test my css file, there were no errors on the file.
+#### [CSS](https://jigsaw.w3.org/css-validator/)
+I used this website to test my css file, there were no errors on the file.
 
-#### HTML
-(https://validator.w3.org/nu/) - I used this website to test my html files. There were errors in the files, such as there was a missing closing div in the footer which was the main error on the files as there were missing closing divs in sections for the 'index' and 'why-join' file.
+#### [HTML](https://validator.w3.org/nu/) 
+I used this website to test my html files. There were errors in the files, such as there was a missing closing div in the footer which was the main error on the files as there were missing closing divs in sections for the 'index' and 'why-join' file.
 Another error was that the benefits list on the why join file was written as a unordered list, but there were information for each list item so it needs to be listed as a description list which has been rectified.
 
 #### 1. Easy Use of Navigation Bar 
