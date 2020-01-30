@@ -290,10 +290,12 @@ button[type="submit"] {
     .volleyball-image {
         height: auto;
         width: auto;
+        max-width: 100%;
+        margin: 10px;
     }
 }
 
-@media(min-width: 1200px) {
+@media(max-width: 1200px) {
     .volleyball-image {
         height: auto;
         width: auto;
@@ -318,7 +320,10 @@ button[type="submit"] {
 
 @media(min-width: 1200px) {
     .dance-fitness-image {
-        width: 1000px;
+        height: auto;
+        width: auto;
+        max-width: 100% ;
+        margin: 5px;
     }
 }
 
@@ -346,7 +351,10 @@ button[type="submit"] {
 
 @media(min-width: 1200px) {
     .boxing-image {
-        width: 1000px;
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        margin: 5px;
     }
 }
 
@@ -373,7 +381,10 @@ button[type="submit"] {
 }
 @media(min-width: 1200px) {
     .pt-sessions-image{
-        width: 1000px;
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        margin: 5px;
     }
 }
 
