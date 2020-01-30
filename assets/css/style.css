@@ -281,18 +281,9 @@ button[type="submit"] {
 
 .volleyball-image {
     height: auto;
-    width: auto;
+    width: 570px;
     max-width: 100%;
     margin: 10px;
-}
-
-@media(min-width: 1200px) {
-    .volleyball-image {
-        height: auto;
-        width: auto;
-        max-width: 100%;
-        margin: 10px;
-    }
 }
 
 @media(max-width: 1200px) {
@@ -318,15 +309,6 @@ button[type="submit"] {
     margin: 5px;
 }
 
-@media(min-width: 1200px) {
-    .dance-fitness-image {
-        height: auto;
-        width: auto;
-        max-width: 100% ;
-        margin: 5px;
-    }
-}
-
 @media(max-width: 1200px) {
     .dance-fitness-image {
         width: 1000px;
@@ -349,15 +331,6 @@ button[type="submit"] {
     margin: 5px;
 }
 
-@media(min-width: 1200px) {
-    .boxing-image {
-        height: auto;
-        width: auto;
-        max-width: 100%;
-        margin: 5px;
-    }
-}
-
 @media(max-width: 1200px) {
     .boxing-image {
         width: 1000px;
@@ -378,14 +351,6 @@ button[type="submit"] {
     width: auto;
     max-width: 100%;
     margin: 5px;
-}
-@media(min-width: 1200px) {
-    .pt-sessions-image{
-        height: auto;
-        width: auto;
-        max-width: 100%;
-        margin: 5px;
-    }
 }
 
 @media(max-width: 1200px) {
