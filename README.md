@@ -34,7 +34,7 @@ The next page is solely based on diffrent activites that the gym provides, the p
 The last page is the 'Contact Us' page, this is set up with the contact, timings and address details at the top of the page side by side and below is a questions form.<br/>
 
 #### Skeleton
-I have included the wireframes in my project on different devices such as desktop, tablet and mobile.
+I have included the wireframes in my project on different devices such as desktop, tablet and mobile. The tablet and mobile phone wireframes will be missing the hamburger icon this is, because it was after the planning stage that I decided to implement this icon.
 
 [Desktop Wireframes](https://github.com/WHusssain937/Milestone-Project/tree/master/Wireframes/desktop-wireframes)
 
@@ -125,14 +125,13 @@ If all fields are filled then the webpage will reload.
 
 ##### Websites & Devices Testing 
 This website was tested on different devices such as a laptop, Iphone 6/7/8, Ipad Pro and Ipad and on multiple web browsers such as Google Chrome, Internet Exployer and Firefox to make sure that it was responsive and compatible.
-During the testing phase for this I need to fix the navbar as it wasnt't fitting on page on the devices and the links were overlapping each other, this was corrected so the navbar is in a square when in this size with two links at the top and two below. 
-Another issue I found was the footer would not stay at the bottom on desktop screens larger then laptops and the Ipad Pro, but I have rectified this know by using the bootstrap grid to rearrange when on these screens.
-I also found that the 'Contact Us' link in the navbar wasn't sitting properly when it was on a mobile screen such as the Samsung S5 or the Google Pixel, this has been sorted by placing the navbar vertical when on mobile screens.
-
+During the testing phase for this project, I have changed the navbar so when it is on devices such as mobiles and tablets it will collapse into a hamburger icon, this was necessary as the navbar was taking up too much space on smaller devices.
+Another issue I found was the footer would not stay at the bottom on desktop screens larger then laptops and the Ipad Pro, but I have rectified this know by using the sticky footer method to fit the footer at the bottom of the page.
+The images on the 'Activities' page were not sizing up correctly to match, I have rectified by making them all the same physical size before uploading them.
 
 ### Deployment
 This site is hosted by GitHub Pages, it is directly deployed via the master branch and it will be regularly updated every time a commit is done.
-To run locally, you can clone this respository directly in the terminal of the environment you are using for code editing type: git clone https://github.com/WHusssain937/Milestone-Project.git.<br/>
+To run locally, you can clone this respository directly in the terminal of the environment you are using for code editing type: git clone https://github.com/WHusssain937/Milestone-Project.git.<br>
 To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 ### Credits
@@ -156,7 +155,7 @@ All content in this project was written by myself.
 [volleyball-image.jpg](https://www.thesubath.com/asset/Organisation/6482/IMG_4201.JPG)
 
 ### Acknowledgements
-I used the module course to help to create my navbar and footer.<br/>
+I used the module course to help to create my footer, also used a bookstrap template for my navbar. 
 This link was used to help write the dance class sections on the activites page (https://www.thisgirlcan.co.uk/activities/dance-fitness/)
 
 #### This is for educational use

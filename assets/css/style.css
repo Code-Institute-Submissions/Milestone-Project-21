@@ -224,7 +224,7 @@ button[type="submit"] {
     border-bottom-color: #595959;
     margin-bottom: 10px;
 }
-/*--------------------------------------------Football Image*/
+/*--------------------------------------------Activities Images*/
 
 .football-image {
     height: auto;
@@ -233,16 +233,12 @@ button[type="submit"] {
     margin-bottom: 10px;
 }
 
-/*--------------------------------------------Volleyball Image*/
-
 .volleyball-image {
     height: auto;
     width: auto;
     max-width: 100%;
     margin-bottom: 10px;
 }
-
-/*--------------------------------------------Dance Image*/
 
 .dance-fitness-image {
     height: auto;
@@ -251,16 +247,12 @@ button[type="submit"] {
     margin-bottom: 10px;
 }
  
-/*--------------------------------------------Boxing Image*/
-
 .boxing-image {
     height: auto;
     width: auto;
     max-width: 100%;
     margin-bottom: 10px;
 }
-
-/*--------------------------------------------PT sessions Image*/
 
 .pt-sessions-image {
     height: auto;
