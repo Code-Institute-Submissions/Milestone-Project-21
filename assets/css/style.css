@@ -75,6 +75,10 @@ header {
     background-color: #000099;
 }
 
+.fas {
+    padding-right: 5px;
+} 
+
 /*--------------------------------------------Index Section*/
 
 .section-heading {
