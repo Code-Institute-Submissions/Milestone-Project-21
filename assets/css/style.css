@@ -277,10 +277,18 @@ button[type="submit"] {
 /*--------------------------------------------Football Image*/
 
 .football-image {
-    height: auto;
+    height: 260px;
     width: auto;
     max-width: 100%;
-    margin: 10px;
+}
+
+@media(max-width: 1200px) {
+   .football-image {
+       height: auto;
+       width: auto;
+       max-width: 100%; 
+       margin: 5px; 
+    }
 }
 
 /*--------------------------------------------Volleyball Image*/
@@ -289,21 +297,15 @@ button[type="submit"] {
     height: auto;
     width: auto;
     max-width: 100%;
-    margin: 10px;
+    margin-bottom: 5px;
 }
 
-@media(max-width: 1200px) {
-    .volleyball-image {
-        height: auto;
-        width: auto;
-        max-width: 100%;
-    }
-}
 
 @media(max-width: 576px) {
    .volleyball-image {
        height: auto;
-       padding-right: 20px;   
+       padding-right: 20px;
+       margin: 10px;   
     }
 }
 
@@ -312,22 +314,15 @@ button[type="submit"] {
 .dance-fitness-image {
     height: auto;
     width: auto;
-    max-width: 100% ;
-    margin: 5px;
-}
-
-@media(max-width: 1200px) {
-    .dance-fitness-image {
-        height: auto;
-        width: auto;
-        max-width: 100%;
-    }
+    max-width: 100%;
+    margin-bottom: 5px;
 }
 
 @media(max-width: 576px) {
    .dance-fitness-image {
        height: auto;
-       padding-right: 20px;   
+       padding-right: 20px; 
+       margin: 10px;  
     }
 }
 
@@ -337,21 +332,14 @@ button[type="submit"] {
     height: auto;
     width: auto;
     max-width: 100%;
-    margin: 5px;
-}
-
-@media(max-width: 1200px) {
-    .boxing-image {
-        height: auto;
-        width: auto;
-        max-width: 100%;
-    }
+    margin-bottom: 5px;
 }
 
 @media(max-width: 576px) {
    .boxing-image {
        height: auto;
-       padding-right: 20px;   
+       padding-right: 20px;
+       margin: 10px;   
     }
 }
 
@@ -361,20 +349,13 @@ button[type="submit"] {
     height: auto;
     width: auto;
     max-width: 100%;
-    margin: 5px;
-}
-
-@media(max-width: 1200px) {
-    .pt-sessions-image {
-        height: auto;
-        width: auto;
-        max-width: 100%;;
-    }
+    margin-bottom: 5px;
 }
 
 @media(max-width: 576px) {
    .pt-sessions-image {
        height: auto;   
+       margin: 10px;
     }
 }
 
