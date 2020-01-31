@@ -6,27 +6,10 @@
     background-color: #0066cc;
 }
 
-.ui-menu-color {
-    background-color: #0066cc;
-}
-
 /*--------------------------------------------Extra*/
 
 h1,h2,h3,h4 {
     margin: 0;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.general-sub {
-    font-family: 'Ibarra Real Nova';
-    font-weight: 400;
-    font-size: 26px;
-    text-align: center;
-    padding: 10px;
-    color: #fafafa;
 }
 
 body {
@@ -61,8 +44,8 @@ header {
 }
 
 .title:hover {
-color: #fafafa;
-text-decoration-line: underline;
+    color: #fafafa;
+    text-decoration-line: underline;
 }
 
 .slogan {
@@ -75,56 +58,21 @@ text-decoration-line: underline;
 }
 
 .slogan:hover {
-color: #fafafa;
-text-decoration: none;
+    color: #fafafa;
+    text-decoration: none;
 }
 
 /*--------------------------------------------Navbar*/
 
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
-
-.menucontainer {
-    font-size: 0;
-}
-
-#nav li {
-    font-size: 14px;
-    padding: 10px;
-}
-
-#nav li:hover {
-    background-color: #000099;
-}
-
-.menuitem {
-    height: 100px;
+.nav-item {
+    font-size: 27px;
+    font-weight: 600;
     text-align: center;
-    padding: 0;
-}
-
-.menuitem a {
-    width: 100%;
-    color: #fff;
-    height: 150px;
-}
-
-.menuitem a i {
-    padding-top: 20px;
-    display: block;
-    color: #fff;
-    font-size: 25px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 200;
-    font-size: 22px;
     font-family: 'Ibarra Real Nova';
+}
+
+.nav-item:hover {
+    background-color: #000099;
 }
 
 /*--------------------------------------------Index Section*/
@@ -139,6 +87,7 @@ text-decoration: none;
     font-size: 34px;
     color: #0066cc;
     padding-bottom: 5px;
+    text-transform: uppercase;
 }
 
 .join-sub-heading {
@@ -146,6 +95,7 @@ text-decoration: none;
     font-weight: bold;
     font-size: 22px;
     color: #595959;
+    text-transform: uppercase;
 }
 
 .center-form {
@@ -426,6 +376,15 @@ footer {
     background-color: hsl(210, 100%, 40%);
     color: #fafafa;
     margin-top: auto;
+}
+
+.footer-heading {
+    font-family: 'Ibarra Real Nova';
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    padding: 10px;
+    color: #fafafa;
 }
 
 .social-links {

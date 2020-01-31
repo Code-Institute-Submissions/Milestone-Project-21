@@ -3,6 +3,8 @@
 The purpose of my project is to provide an website for a gym that is providing the public with a different way of exercising other then lifting weights and running on dreadmills.
 The website's purpose is to both provide people with both a online way of signing up and showing people the different ways that we train which are both fun and have more benefits then your average local gym. 
 
+####### I have included a link straight to the website here: (https://whusssain937.github.io/Milestone-Project/)
+
 ### UX
 
 #### User Stories
@@ -30,8 +32,15 @@ The way I have structured my project is to have the sign up form on the home pag
 In the 'Why Join' page, I have listed a summary of joining the gym at the top of the page and then listed the different benefits side by side that we provide.<br/>
 The next page is solely based on diffrent activites that the gym provides, the page is set up with a image of the activity with a brief description of why to join and what days the activites are done.<br/>
 The last page is the 'Contact Us' page, this is set up with the contact, timings and address details at the top of the page side by side and below is a questions form.<br/>
+
 #### Skeleton
 I have included the wireframes in my project on different devices such as desktop, tablet and mobile.
+
+[Desktop Wireframes](https://github.com/WHusssain937/Milestone-Project/tree/master/Wireframes/desktop-wireframes)
+
+[Tablet Wireframes](https://github.com/WHusssain937/Milestone-Project/blob/master/Wireframes/tablet-wireframes/contact-us.png)
+
+[Mobile Wireframes](https://github.com/WHusssain937/Milestone-Project/tree/master/Wireframes/mobile-phone-wireframes)
 
 #### Surface
 I have used a light blue color for the background of my header and footer and used white color for the text to create a fun and vibrant style, also I have chose to stick with a white background in the section background as it is the best color to match the header and footer.
@@ -43,7 +52,7 @@ I have used a light blue color for the background of my header and footer and us
 ##### Navbar
 This will allow the user to see what different web pages that they can visit on the website and click on the different links in the navbar which will take them to the webpage they require.
 ##### Sign Up Form 
-This form will allow the user to fill out their details so they can join the gym.
+This form will allow the user to fill out their details so they can join the gym. 
 ##### Join Button
 This button will complete the sign up form.
 ##### Logo Image
@@ -65,10 +74,13 @@ This will allow the user to ask any issues or information they need help with.
 ##### Questions Submit Button
 This button will allow the user complete the questions form.
 
+##### Hamburger Icon 
+This icon will appear on smaller screens such as tablets and mobile phones so that the navigation bar doesn't take up too much room.
+
 #### Features Left to Implement
 
-##### Hamburger Icon 
-I would like to implement the Hamburger Icon to open and close my navbar on smaller screens like mobile phones and tablet in the future projects. 
+##### Bootstrap Carousel Plugin
+I would like to use this feature in future projects to create a slideshow of images. 
 
 ### Technologies Used
 
@@ -88,10 +100,10 @@ This tool was used to include different fonts on my webpages.
 
 ### Testing
 
-#### [CSS](https://jigsaw.w3.org/css-validator/)
+#### [CSS Validation](https://jigsaw.w3.org/css-validator/)
 I used this website to test my css file, there were no errors on the file.
 
-#### [HTML](https://validator.w3.org/nu/) 
+#### [HTML Validation](https://validator.w3.org/nu/) 
 I used this website to test my html files. There were errors in the files, such as there was a missing closing div in the footer which was the main error on the files as there were missing closing divs in sections for the 'index' and 'why-join' file.
 Another error was that the benefits list on the why join file was written as a unordered list, but there were information for each list item so it needs to be listed as a description list which has been rectified.
 
@@ -104,7 +116,7 @@ A new customer's user story will be achieved by going to the why join page and r
 #### 3. Easy Sign Up
 A potential customer's user story will be achieved as the sign up form is on the home page so the user is able to find it and join with ease.
 If you try to submit the form without filling in all fields which are 'First Name', 'Surname' and 'Email Address' then a pop up will appear to state that all fields need to be complete, this was done by adding 'Required' attribute.<br/>
-If all fields have been filled then the webpage will reload.  
+If all fields have been filled then the webpage will re-display itself, as I haven't yet learned how to do it correctly.
 
 #### 4. I want to be able to ask any questions I have
 A user's story will be achieved by going to the 'Contact Us' page and then going towards the bottom of the page and the user can ask any question.
@@ -112,7 +124,7 @@ If the user attempts to submit the form without completing all fields then the f
 If all fields are filled then the webpage will reload. 
 
 ##### Websites & Devices Testing 
-This website was tested on different devices such as the Iphone 6/7/8, Ipad Pro and Ipad and on multiple websites such as Google Chrome, Internet Exployer and Firefox to make sure that it was responsive and compatible.
+This website was tested on different devices such as a laptop, Iphone 6/7/8, Ipad Pro and Ipad and on multiple web browsers such as Google Chrome, Internet Exployer and Firefox to make sure that it was responsive and compatible.
 During the testing phase for this I need to fix the navbar as it wasnt't fitting on page on the devices and the links were overlapping each other, this was corrected so the navbar is in a square when in this size with two links at the top and two below. 
 Another issue I found was the footer would not stay at the bottom on desktop screens larger then laptops and the Ipad Pro, but I have rectified this know by using the bootstrap grid to rearrange when on these screens.
 I also found that the 'Contact Us' link in the navbar wasn't sitting properly when it was on a mobile screen such as the Samsung S5 or the Google Pixel, this has been sorted by placing the navbar vertical when on mobile screens.
