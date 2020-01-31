@@ -291,7 +291,7 @@ button[type="submit"] {
     margin: 10px;
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 992px) {
     .volleyball-image {
         width: 1000px;
     }
@@ -335,7 +335,7 @@ button[type="submit"] {
     margin: 5px;
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 992px) {
     .boxing-image {
         width: 1000px;
     }
@@ -358,8 +358,14 @@ button[type="submit"] {
 }
 
 @media(max-width: 1200px) {
-    .pt-sessions-image{
+    .pt-sessions-image {
         width: 1000px;
+    }
+}
+
+@media(max-width: 576px) {
+   .pt-sessions-image {
+       height: auto;   
     }
 }
 
