@@ -29,6 +29,11 @@ h1,h2,h3,h4 {
     color: #fafafa;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 /*--------------------------------------------Heading*/
 
@@ -273,7 +278,7 @@ button[type="submit"] {
 .football-image {
     height: auto;
     width: auto;
-    max-width: 100% ;
+    max-width: 100%;
     margin: 10px;
 }
 
@@ -281,15 +286,14 @@ button[type="submit"] {
 
 .volleyball-image {
     height: auto;
-    width: 570px;
+    width: auto;
     max-width: 100%;
     margin: 10px;
 }
 
 @media(max-width: 1200px) {
     .volleyball-image {
-        height: auto;
-        width: auto;
+        width: 1000px;
     }
 }
 
@@ -425,6 +429,7 @@ footer {
     margin: 0;
     background-color: hsl(210, 100%, 40%);
     color: #fafafa;
+    margin-top: auto;
 }
 
 .social-links {
