@@ -58,7 +58,7 @@ This button will complete the sign up form.
 ##### Logo Image
 This image is the gym logo branding and show users how they can identify the gym.
 ##### Footer Social Links 
-This will let the user access the different social media platforms they can visit us on.
+This will let the user access the different social media platforms they can visit us on and the links will take you to the chosen social media website.
 ##### Why Join Information
 This information will answer the users first question, why should they join Fun Fitness?
 ##### Benefits
