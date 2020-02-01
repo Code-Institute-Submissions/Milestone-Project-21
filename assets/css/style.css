@@ -231,38 +231,44 @@ button[type="submit"] {
 /*--------------------------------------------Activities Images*/
 
 .football-image {
-    height: 290px;
+    height: auto;
     width: auto;
     max-width: 100%;
     margin-bottom: 10px;
 }
 
 .volleyball-image {
-    height: 290px;
+    height: auto;
     width: auto;
     max-width: 100%;
     margin-bottom: 10px;
 }
 
 .dance-fitness-image {
-    height: 290px;
+    height: auto;
     width: auto;
     max-width: 100%;
     margin-bottom: 10px;
 }
  
 .boxing-image {
-    height: 290px;
+    height: auto;
     width: auto;
     max-width: 100%;
     margin-bottom: 10px;
 }
 
 .pt-sessions-image {
-    height: 290px;
+    height: auto;
     width: auto;
     max-width: 100%;
     margin-bottom: 10px;
+}
+
+@media(max-width: 992px) {
+    .activity-image {
+        width: 800px;
+    }
 }
 
 @media(max-width: 576px) {
