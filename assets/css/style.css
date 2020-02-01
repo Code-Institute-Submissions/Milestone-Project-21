@@ -268,7 +268,7 @@ button[type="submit"] {
 
 @media(min-width: 1200px) {
     .activity-image {
-        float: center;
+        float: right;
     }
 }
 
