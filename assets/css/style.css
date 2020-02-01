@@ -266,9 +266,10 @@ button[type="submit"] {
     margin-bottom: 10px;
 }
 
-.activity-image {
-    justify-content: center;
-    display: block;
+@media(min-width: 1200px) {
+    .activity-image {
+        float: center;
+    }
 }
 
 @media(max-width: 992px) {
