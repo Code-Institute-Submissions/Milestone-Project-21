@@ -221,6 +221,7 @@ button[type="submit"] {
     text-align: center;
     color: #595959;
     padding-bottom: 10px;
+    display: block;
 }
 
 .border-subheading {
@@ -263,6 +264,11 @@ button[type="submit"] {
     width: auto;
     max-width: 100%;
     margin-bottom: 10px;
+}
+
+.activity-image {
+    justify-content: center;
+    display: block;
 }
 
 @media(max-width: 992px) {
